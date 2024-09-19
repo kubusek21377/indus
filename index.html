@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadania z Marginesami</title>
+    <style>
+        /* Zadanie 1: Podstawowe marginesy wewnętrzne */
+        .table1 td {
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        /* Zadanie 2: Zapis Podwójny Marginesu */
+        .table2 {
+            margin: 10px 30px; /* 10px góra/dół, 30px lewa/prawa */
+            border: 1px solid black;
+        }
+
+        /* Zadanie 3: Zapis Potrójny Marginesu */
+        .table3 {
+            margin: 20px 50px 10px 50px; /* Góra 20px, lewa/prawa 50px, dół 10px */
+            border: 1px solid black;
+        }
+
+        /* Zadanie 4: Zapis Poczwórny Marginesu */
+        .table4 {
+            margin: 10px 40px 20px 30px; /* Góra 10px, prawy 40px, dół 20px, lewy 30px */
+            border: 1px solid black;
+        }
+
+        /* Zadanie 5: Marginesy Dla Wybranych Stron */
+        .table5 {
+            margin-left: 50px;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            border: 1px solid black;
+        }
+
+        table {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Zadania z Marginesami w Tabelach</h1>
+
+    <h2>Zadanie 1: Podstawowe marginesy wewnętrzne</h2>
+    <table class="table1">
+        <tr>
+            <th>Komentarz</th>
+            <th>Działanie</th>
+        </tr>
+        <tr>
+            <td>Miejsce na marginesy wewnętrzne</td>
+            <td>Padding 20px we wszystkich komórkach</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 2: Zapis Podwójny Marginesu</h2>
+    <table class="table2">
+        <tr>
+            <th>Komentarz</th>
+            <th>Działanie</th>
+        </tr>
+        <tr>
+            <td>Marginesy zewnętrzne różne na osi poziomej i pionowej</td>
+            <td>Margin: 10px (góra/dół), 30px (lewa/prawa)</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 3: Zapis Potrójny Marginesu</h2>
+    <table class="table3">
+        <tr>
+            <th>Komentarz</th>
+            <th>Działanie</th>
+        </tr>
+        <tr>
+            <td>Potrójne wartości marginesów</td>
+            <td>Margin: 20px (góra), 50px (lewa/prawa), 10px (dół)</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 4: Zapis Poczwórny Marginesu</h2>
+    <table class="table4">
+        <tr>
+            <th>Komentarz</th>
+            <th>Działanie</th>
+        </tr>
+        <tr>
+            <td>Poczwórny zapis marginesów zgodnie z ruchem wskazówek zegara</td>
+            <td>Margin: 10px (góra), 40px (prawy), 20px (dół), 30px (lewy)</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 5: Marginesy Dla Wybranych Stron</h2>
+    <table class="table5">
+        <tr>
+            <th>Komentarz</th>
+            <th>Działanie</th>
+        </tr>
+        <tr>
+            <td>Marginesy dla wybranych stron</td>
+            <td>Margin-left: 50px, Margin-right: 20px, Margin-top: 15px, Margin-bottom: 25px</td>
+        </tr>
+    </table>
+
+</body>
+</html>
